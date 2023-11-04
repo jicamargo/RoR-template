@@ -1,24 +1,49 @@
-# README
+# Ruby on Rails Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository serves as a basic template for starting a Ruby on Rails application with PostgreSQL as the database. It includes essential configurations and instructions to get you started quickly.
 
-Things you may want to cover:
+## Prerequisites
 
-* Ruby version
+Before using this template, make sure you have the following prerequisites installed on your system:
 
-* System dependencies
+- Ruby (>= 2.7)
+- Ruby on Rails (>= 6.0)
+- PostgreSQL
 
-* Configuration
+## Getting Started
 
-* Database creation
+1. Clone this repository to your local machine:
 
-* Database initialization
+   ```
+    git clone https://github.com/your-username/RoR-template.git
+  ```
 
-* How to run the test suite
+2. Change into the project directory:
 
-* Services (job queues, cache servers, search engines, etc.)
+  ```
+    cd RoR-template
+  ```
 
-* Deployment instructions
+3. Install the required gems using Bundler:
 
-* ...
+  ```
+    bundle install
+  ```
+4. Set up your PostgreSQL database by modifying the config/database.yml file with your database configuration.
+
+5. Run database migrations:
+
+   ```
+    rails db:migrate
+    ```
+
+You're now ready to start building your Ruby on Rails application!
+
+License
+This project is [MIT](./LICENSE) licensed.
+
+Author
+This project was created by: 
+👤 **JIC Software (Jorge Camargo)**
+- GitHub: [@jicamargo](https://github.com/jicamargo)
+- LinkedIn: [Jorge Camargo](https://www.linkedin.com/in/jorgecamargog/?locale=en_US)
